@@ -1,0 +1,52 @@
+.navbar {
+    background-color:  #383838;
+}
+
+.nav .nav-link.active {
+    background-color: #1f1f1f;
+    color:#28bffa;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color:#28bffa;
+}
+
+body {
+    background-color: #949494;
+}
+
+.section-color{
+    background-color: #5a5a5a;
+}
+
+.section-title {
+    font-family: Roboto, sans-serif;
+}
+
+.font-color {
+    color:#cecece;
+}
+
+.social-links{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.icon {
+    color: #383838;
+}
+
+
+@media screen and (max-width:767px) {
+    .carousel-item img {
+        max-width: 100%;
+    }
+
+    .descricao h2 {
+        padding-top: 12px;
+    }
+
+}
